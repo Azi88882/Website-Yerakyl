@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>China Scholarship Services</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body { margin:0; font-family: Arial, sans-serif; color:black; background:white; }
+        header { background:#0d3b66; color:#fff; padding:20px 16px; }
+        .container { width: min(1100px, calc(100% - 32px)); margin:0 auto; }
+        .brand { display:flex; align-items:center; justify-content: space-between; flex-wrap: wrap; }
+        .brand h1 { margin:0; font-size:1.6rem; }
+        nav a { color:#fff; margin-left:18px; text-decoration:none; font-weight:600; }
+        .hero { display:flex; flex-wrap:wrap; align-items:center; gap:24px; padding:60px 0; }
+        .hero-text { flex:1 1 320px; }
+        .hero-text h2 { margin:0 0 16px; font-size:2.4rem; line-height:1.1; }
+        .hero-text p { margin:0 0 24px; font-size:1rem; max-width:600px; }
+        .btn { display:inline-block; background:#faa307; color:#111; text-decoration:none; padding:14px 24px; border-radius:6px; font-weight:700; }
+        .hero-image { flex:1 1 320px; }
+        .hero-image img { width:100%; border-radius:16px; object-fit:cover; }
+        section { padding:56px 0; }
+        .grid { display:grid; gap:24px; grid-template-columns:repeat(auto-fit, minmax(240px, 1fr)); }
+        .card { background:#fff; border-radius:16px; padding:24px; box-shadow:0 10px 30px rgba(0,0,0,.08); }
+        .card h3 { margin-top:0; }
+        .process li { margin-bottom:16px; }
+        .testimonial { background:#0d3b66; color:#fff; border-radius:16px; padding:24px; }
+        footer { background:#111; color:#ddd; padding:24px 0; }
+        footer p { margin:0; font-size:.95rem; }
+        @media(max-width:720px){ .brand { flex-direction:column; align-items:flex-start; } nav { margin-top:12px; } .hero { padding:40px 0; } }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container brand">
+            <h1>China Scholarship Services</h1>
+            <nav>
+                <a href="#services">Services</a>
+                <a href="#process">Process</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <div class="hero-text">
+                <h2>Study in China with a full scholarship</h2>
+                <p>We guide students through every step of the scholarship application process for top Chinese universities, from program selection to visa support.</p>
+                <a class="btn" href="#contact">Start Your Application</a>
+            </div>
+            <div class="hero-image">
+                <img src="a.jpeg" alt="Students at a Chinese university">
+            </div>
+        </section>
+
+        <section id="services">
+            <div class="grid">
+                <div class="card">
+                    <h3>Scholarship matching</h3>
+                    <p>We connect you with Chinese government and university scholarships that match your academic profile and career goals.</p>
+                </div>
+                <div class="card">
+                    <h3>Application support</h3>
+                    <p>Our team helps prepare documents, write personal statements, and complete scholarship forms the right way.</p>
+                </div>
+                <div class="card">
+                    <h3>Visa and enrollment</h3>
+                    <p>Get support for admission letters, visa paperwork, pre-departure guidance and settling into campus life.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="process">
+            <h2>How it works</h2>
+            <ul class="process">
+                <li><strong>1. Assessment:</strong> Share your goals and academic background with us.</li>
+                <li><strong>2. Match:</strong> We identify scholarship opportunities at Chinese universities.</li>
+                <li><strong>3. Apply:</strong> We guide you through document preparation and submission.</li>
+                <li><strong>4. Travel:</strong> Receive admission support and prepare for your study journey in China.</li>
+            </ul>
+        </section>
+
+        <section>
+            <div class="testimonial">
+                <h3>Success stories</h3>
+                <p>"Thanks to the team, I received a full scholarship to study engineering in Shanghai. The process was easy and professional."</p>
+                <p><strong>- Li Wei, Scholarship Recipient</strong></p>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <div class="container">
+            <div class="card">
+                <h3>Contact us</h3>
+                <p>Email: info@china-scholarships.com</p>
+                <p>Phone: +86 10 1234 5678</p>
+                <p>We help students worldwide access Chinese university scholarships.</p>
+            </div>
+            <p>© 2026 China Scholarship Services</p>
+        </div>
+    </footer>
+</body>
+</html>
